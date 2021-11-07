@@ -1,0 +1,21 @@
+.card {
+    background-color: white;
+    border-width: 0.5px;
+    border-color: gainsboro;
+    border-style: groove;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    margin: 20px 10px;
+    transition: all 0.3s ease-out;
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+}
+
+.card:hover {
+    background-color: #eee;
+    
+}
